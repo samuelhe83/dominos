@@ -1,0 +1,29 @@
+.domino {
+  width: 164px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.dot {
+  display: inline-block;
+  width: 50px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  visibility: hidden;
+}
+
+.circle {
+  display: table;
+  border-radius: 50%;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto;
+  width: 25px;
+  height: 25px;
+  border-color: blue;
+  background: black;
+  margin-top: 34px;
+}
+
